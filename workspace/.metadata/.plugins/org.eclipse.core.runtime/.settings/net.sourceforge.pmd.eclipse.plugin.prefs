@@ -1,0 +1,3 @@
+#Fri Aug 21 15:32:17 IST 2015
+net.sourceforge.pmd.eclipse.plugin.ruletable.fraction=55
+net.sourceforge.pmd.eclipse.plugin.ruletable.hiddenColumns=modCnt,fixCnt,tMinLang,tSince,tXmpCnt,tMaxLang,tExtURL

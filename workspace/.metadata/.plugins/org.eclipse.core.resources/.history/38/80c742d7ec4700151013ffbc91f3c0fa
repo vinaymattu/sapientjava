@@ -1,0 +1,23 @@
+package mainpack;
+
+ public class Code {          //class
+  public static void main(final String[] args) {    //main method
+    int lightSpeed;
+    long days;
+	long seconds; 
+	long distance;
+// approximate speed of light in miles per secon
+	lightSpeed = 186000;
+
+		    days = 1000; // specify number of days here
+
+		    seconds = days * 24 * 60 * 60; // convert to seconds
+
+		    distance = lightSpeed * seconds; // compute distance
+
+		
+			log.fine("In " + days);
+		    System.out.print(" days light will travel about ");
+		    System.out.print(distance + " miles.");
+		  }
+}

@@ -1,0 +1,20 @@
+package mainpack;
+
+class data
+{
+	static int value1;
+}
+public class MainApp {
+	
+  public static void main(String [] args)
+  {
+	  data data1=new data();
+	  data data2=new data();
+	  data1.value1=4;
+	  data2.value1=8;
+	  
+	  data1.value1=3;
+	  
+	  System.out.println(data1+" "+data2);
+  }
+}

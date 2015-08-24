@@ -1,0 +1,58 @@
+package mainpack;
+
+class employee
+{
+	public void netsalary()
+	{
+		System.out.println("employee salary");
+	}
+}
+
+class intern extends employee
+{
+	public void netsalary()
+	{
+		System.out.println("intern salary");
+	}
+}
+
+class confirmed_employee extends employee
+{
+	public void netsalary()
+	{
+		System.out.println("confirmed employee salary");
+	}
+}
+
+class hr extends employee
+{
+       public employee recruit(String empType)
+       {
+    	   if(empType.equalsIgnoreCase("i"))
+    	   {
+    		   new intern();
+    	   }
+    	   else if(empType.equalsIgnoreCase("c"))
+
+           {
+        	   new confirmed_employee();
+    	   }
+         
+        	   return null;
+           
+       }
+}
+
+public class MainApp 
+{
+	public static void main(String args [])
+	{
+         hr h=new hr();
+         
+         employee emp=h.recruit("i");
+         if(emp!=null)
+         {
+        	 emp.netsalary();
+         }
+	}    
+}

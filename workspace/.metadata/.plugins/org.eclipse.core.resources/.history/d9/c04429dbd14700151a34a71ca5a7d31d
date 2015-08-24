@@ -1,0 +1,39 @@
+package mainpack;
+
+import java.sql.SQLException;
+
+
+class base
+{
+        public void test() throws SQLException
+        {
+        	System.out.println("base");
+        }
+}
+
+
+class derived extends base
+{
+	public void test()
+	{
+		System.out.println("derived");
+	}
+}
+
+
+
+public class OverrideCase {
+
+	public static void main(String[] args) {
+		base b=new derived();
+		
+		try {
+			b.test();
+		} catch (SQLException e) {
+		
+			e.printStackTrace();
+		}
+              System.out.println("End");
+	}
+
+}

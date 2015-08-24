@@ -1,0 +1,46 @@
+package com.sapient.client.cui;
+
+
+
+class point
+{
+	int x,y;
+	public point()
+	{
+		
+	}
+	public point(int a,int b)
+	{
+		x=a;
+		y=b;
+	}
+	
+	public point[] createarray()
+	{
+		point[] p;
+		p=new point[10];
+		
+		
+		for(int i=0;i<10;i++)
+		{
+			p[i]=new point(i,i+1);
+		}
+		return p;
+	}
+	
+	
+	/*void display(int[] scr)
+	{
+		
+	}*/
+}
+public class ReferenceArrays {
+	
+public static void main(String args [])
+{
+	
+	point c=new point(); 
+}
+	
+
+}

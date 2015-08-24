@@ -1,0 +1,21 @@
+package mainpack;
+
+enum apple
+{
+	jonathon,goldendel,reddel,winesap,cortland
+}
+public class Enumerator {
+public static void main(String args [])
+{
+apple ap;
+apple a[]=apple.values();
+
+for(apple data:a)
+{
+	   System.out.println(a);
+}
+
+
+
+}
+}
