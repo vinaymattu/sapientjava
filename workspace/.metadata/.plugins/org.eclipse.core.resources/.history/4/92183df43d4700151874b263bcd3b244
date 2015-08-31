@@ -1,0 +1,23 @@
+package mainpack;
+
+public class Bird implements Flyer {
+
+	
+	public void takeoff() {
+		// TODO Auto-generated method stub
+
+	}
+
+
+	public void land() {
+		// TODO Auto-generated method stub
+
+	}
+
+	
+	public void fly() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

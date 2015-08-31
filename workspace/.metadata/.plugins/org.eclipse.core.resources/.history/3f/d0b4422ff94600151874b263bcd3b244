@@ -1,0 +1,27 @@
+package com.sapient.client.cui;
+
+
+
+public class MultiArray {
+
+	public static void main(String[] args) {
+		System.out.println("begin");
+		
+		int[][] num;
+		
+		num=new int[5][3];
+		
+		num[1][1]=5;
+		num[2][1]=7;
+		
+		
+		for(int data[]:num)
+		{
+			for(int n:data)
+			{
+				System.out.println(n);
+			}
+		}
+	}
+
+}

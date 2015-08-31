@@ -1,0 +1,17 @@
+package com.sapient.client.cui;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+	
+		System.out.println("begin");
+		int num[];   //stack
+        num=new int[10];
+        int ref[];
+        ref=num;
+        ref[4]=5;
+        
+        System.out.println(num[4]);
+	}
+
+}

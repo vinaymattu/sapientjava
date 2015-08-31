@@ -1,0 +1,16 @@
+package com.sapient.client.cui;
+
+public class CopyArray {
+
+	public static void main(String[] args) {
+	
+		int[] scr;
+		scr=new int[10];
+		
+		int[] Des=new int[20];
+		
+	System.arraycopy(scr, 0, Des, 0, 10);
+
+}
+}
+

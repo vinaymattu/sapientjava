@@ -1,0 +1,38 @@
+package mainpack;
+
+
+class IllegalageException extends Exception
+{
+    	
+}
+
+
+
+class vote
+{
+	
+	public void register(int age) throws IllegalageException
+	{
+		if(age<18)
+		{
+			throw new IllegalageException();
+		}
+		
+		System.out.println("you are eligible for the register");
+	}
+}
+
+public class Exception1 {
+
+	public static void main(String[] args) {
+	
+             vote v=new vote();
+             try {
+				v.register(16);
+			} catch (IllegalageException e) {
+			
+				e.printStackTrace();
+			}
+	}
+
+}

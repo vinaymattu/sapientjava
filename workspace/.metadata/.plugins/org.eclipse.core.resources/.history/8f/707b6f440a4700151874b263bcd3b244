@@ -1,0 +1,37 @@
+package mainpack;
+
+class employee
+{
+	public void netsalary()
+	{
+		System.out.println("employee salary");
+	}
+}
+
+class intern extends employee
+{
+	public void netsalary()
+	{
+		System.out.println("inter salary");
+	}
+}
+
+class confirmed_employee extends employee
+{
+	public void netsalary()
+	{
+		System.out.println("confirmed employee salary");
+	}
+}
+
+
+
+public class MainApp 
+{
+	public static void main(String args [])
+	{
+         employee e;
+         e=new intern();
+         e.netsalary();
+	}    
+}
